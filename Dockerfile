@@ -6,4 +6,4 @@ RUN echo "deb http://packages.erlang-solutions.com/debian precise contrib" >> /e
 RUN wget http://packages.erlang-solutions.com/debian/erlang_solutions.asc
 RUN apt-key add erlang_solutions.asc
 RUN apt-get update
-RUN apt-get install -y erlang=1:16.b.3-3 erlang-base-hipe=1:16.b.3-3
+RUN apt-get install -y esl-erlang=1:15.b.3-2~ubuntu~precise
