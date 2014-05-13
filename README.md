@@ -20,5 +20,5 @@ Or use in a `Dockerfile`:
 ### Available tags on docker index:
 
 `latest`
-
+`r16b03-1`: esl-erlang (1:16.b.3-1), erlang-base-hipe (1:16.b.3-3)
 `r15b03-1`: esl-erlang (1:15.b.3-2~ubuntu~precise)
